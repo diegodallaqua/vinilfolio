@@ -86,7 +86,7 @@ As capturas ficam no encarte da página de cada projeto, em cor. A primeira capt
 },
 ```
 
-As capturas do Pontuo vieram dos testes de navegador do próprio repositório (`pontuo/.artifacts`), com dados de teste. As do Infinito Medalhas foram feitas no build local do site, com o conteúdo de demonstração.
+As capturas do Pontuo vieram dos testes de navegador do próprio repositório (`pontuo/.artifacts`), com dados de teste.
 
 ### Amostras de API
 
@@ -94,7 +94,7 @@ O Lado B de cada projeto mostra uma requisição e resposta reais, tiradas do RE
 
 ### Repositórios privados
 
-`api-pontuo`, `pontuo` e `infinito-medalhas` não estavam públicos no GitHub quando o site foi feito, então aparecem com o rótulo "privado" e sem link. Quando abrir um deles, troque `public: false` por `public: true` no `repo` correspondente em `content/projects.ts`.
+`api-pontuo` e `pontuo` não estavam públicos no GitHub quando o site foi feito, então aparecem com o rótulo "privado" e sem link. Quando abrir um deles, troque `public: false` por `public: true` no `repo` correspondente em `content/projects.ts`.
 
 ## Design
 
@@ -132,6 +132,5 @@ Build de produção local (`next start`), emulação padrão do Lighthouse 12:
 | `/projetos` | 97 / 100 / 100 / 100 | 100 / 100 / 100 / 100 |
 | `/projetos/pontuo` | 96 / 100 / 100 / 100 | 100 / 100 / 100 / 100 |
 | `/projetos/rede-campo-online` | 97 / 100 / 100 / 100 | 100 / 100 / 100 / 100 |
-| `/projetos/infinito-medalhas` | 96 / 100 / 100 / 100 | 100 / 100 / 100 / 100 |
 | `/en` | 96 / 100 / 100 / 100 | 100 / 100 / 100 / 100 |
 | `/en/projects` | 98 / 100 / 100 / 100 | 100 / 100 / 100 / 100 |

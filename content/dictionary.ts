@@ -20,7 +20,7 @@ const pt = {
     records: 'Discos',
     ctaProjects: 'Ver projetos',
     ctaContact: 'Falar comigo',
-    projectsTitle: 'três discos, dois lados cada.',
+    projectsTitle: 'dois discos, dois lados cada.',
     projectsIntro:
       'No Lado A, a interface. No Lado B, a API. Vire todos os discos de uma vez para ver as marcas ou os endpoints.',
     pathTitle: 'trajetória',
@@ -40,7 +40,7 @@ const pt = {
   projects: {
     metaTitle: 'Projetos · Diego Dallaqua',
     description:
-      'Pontuo, Rede Campo Online e Infinito Medalhas: três produtos completos, do back end à interface.',
+      'Pontuo e Rede Campo Online: dois produtos completos, do back end à interface.',
     intro:
       'Em cada um, escrevi do servidor à interface. Vire os discos para ver a marca no Lado A ou os endpoints no Lado B.',
   },
@@ -81,7 +81,7 @@ const en: Dictionary = {
     records: 'Records',
     ctaProjects: 'See projects',
     ctaContact: 'Get in touch',
-    projectsTitle: 'three records, two sides each.',
+    projectsTitle: 'two records, two sides each.',
     projectsIntro:
       'Side A is the interface. Side B is the API. Turn every record over at once to see the marks or the endpoints.',
     pathTitle: 'path',
@@ -101,7 +101,7 @@ const en: Dictionary = {
   projects: {
     metaTitle: 'Projects · Diego Dallaqua',
     description:
-      'Pontuo, Rede Campo Online and Infinito Medalhas: three complete products, from back end to interface.',
+      'Pontuo and Rede Campo Online: two complete products, from back end to interface.',
     intro:
       'In each one, I wrote everything from the server to the interface. Turn the records over to see the mark on Side A or the endpoints on Side B.',
   },
