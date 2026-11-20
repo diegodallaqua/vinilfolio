@@ -11,8 +11,8 @@ export const profile = {
     en: "Presidente Prudente, Brazil",
   } satisfies Localized,
   bio: {
-    pt: "Desenvolvedor Full Stack formado em Ciência da Computação pela UTFPR. Construo aplicações de ponta a ponta, da API à interface, com Flutter, Node.js/TypeScript, Java/Spring e React. Busco minha primeira vaga como desenvolvedor júnior, para entregar software simples de usar e fácil de manter.",
-    en: "Full Stack Developer with a Computer Science degree from UTFPR. I build applications end to end, from API to interface, with Flutter, Node.js/TypeScript, Java/Spring and React. I’m looking for my first junior role, where I can ship software that is simple to use and easy to maintain.",
+    pt: "Desenvolvedor Full Stack formado em Ciência da Computação pela UTFPR. Eu crio aplicativos de ponta a ponta, da API à interface, com Flutter, Node.js/TypeScript, Java/Spring e React. Estou procurando minha primeira vaga júnior, onde posso desenvolver minhas habilidades e entregar produtos simples de usar e fáceis de manter.",
+    en: "Full-stack developer with a degree in Computer Science from UTFPR. I build end-to-end applications, from APIs to interfaces, with Flutter, Node.js/TypeScript, Java/Spring, and React. I'm looking for my first junior position where I can develop my skills and deliver simple-to-use, easy-to-maintain products.",
   } satisfies Localized,
   philosophy: {
     pt: "Fazer bem feito é uma forma silenciosa de respeitar quem vem depois.",
