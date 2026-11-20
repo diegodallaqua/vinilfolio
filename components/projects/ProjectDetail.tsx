@@ -40,6 +40,25 @@ export function ProjectDetail({ project, locale }: { project: Project; locale: L
             ))}
           </div>
           <dl className={s.facts}>
+            {project.liveUrl && (
+              <div>
+                <dt>{p.live}</dt>
+                <dd className={s.repos}>
+                  <a
+                    href={project.liveUrl}
+                    className={s.repo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span className={s.repoLinked}>{p.liveLink}</span>
+                    <Arrow diagonal />
+                    <span className="visually-hidden">
+                      ({project.liveUrl.replace(/^https?:\/\//, '')})
+                    </span>
+                  </a>
+                </dd>
+              </div>
+            )}
             <div>
               <dt>{sameRepo ? p.repo : p.repos}</dt>
               <dd className={s.repos}>

@@ -40,6 +40,8 @@ export type ApiSample = {
 export type Project = {
   slug: string;
   name: string;
+  /** Endereço da plataforma no ar. Sem ele, a página não mostra o link. */
+  liveUrl?: string;
   api: ApiSample;
   kind: Localized;
   summary: Localized;
@@ -70,6 +72,7 @@ export const projects: Project[] = [
   {
     slug: "pontuo",
     name: "Pontuo",
+    liveUrl: "https://pontuo.vercel.app",
     api: {
       title: { pt: "Desempenho por matéria", en: "Performance by subject" },
       code: {
